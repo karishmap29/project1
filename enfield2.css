@@ -111,7 +111,7 @@ button{
         font-family: 'Mukta', sans-serif;
         font-size: small;
         font-weight: 200;
-        animation: move 1s;
+        animation: move 2s;
         /* animation-delay: 1s; */
 
         /* position: sticky;
