@@ -1,0 +1,133 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mukta:wght@200;300;400&family=Patrick+Hand&family=Rubik+Distressed&family=Solway&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.main .nav{
+    width: 100%;
+    height:60px;
+    background-color: black;
+   top: 0px;
+   
+    /* position: sticky;
+    top: 0px; */
+    font-family: 'Solway', serif;  
+    font-weight: 200;  
+    font-size: small;
+
+    
+}
+.nav img{
+    width: 200px;
+    height: 120px;
+    /* animation: movelog 0.5s;
+    position: relative; */
+    
+}
+@keyframes movelog{
+    0%{ left:0px;}
+    25%{left:10px;}
+    50%{left:20px;}
+    75%{left:10px;}
+    100%{left:0px};
+}
+
+.nav ul{
+    width:100%;
+    height: 40px;
+    display:flex;
+    /* position:absolute; */
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul li{
+    list-style: none;
+    /* display: inline-block; */
+    margin: 50px 15px;
+    padding-top: 25px;
+    
+  
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.second{
+    background-image: url("./images/hima4.webp");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+h3{
+    text-align: center;
+    color: white;
+}
+select{
+    background-color: rgb(237, 227, 227);
+}
+button{
+    width: 100px;
+    border-radius: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 38px;
+    background-color: rgb(159, 6, 6);
+    color:white;
+    padding: 4px;
+    margin-top: 3px;
+}
+.btn:hover{
+    background-color:orangered;
+    color: black;
+}
+.nav ul li img:hover{
+    animation: movelog 1s;
+    position: relative;
+}
+.nav ul li a:hover{
+    color: #d1291c ;
+
+}
+
+.second .bookaride{
+    width: 200px;
+    height: 360px;
+    position: absolute;
+    /* border: 1px #d1291c solid; */
+
+        background-color: rgb(32, 29, 29);
+        color: #F0F0F0;
+        margin-left: 80%;
+        margin-top: 80px;
+        padding: 15px;
+        border-radius: 30px;
+        font-family: 'Mukta', sans-serif;
+        font-size: small;
+        font-weight: 200;
+        animation: move 1s;
+        /* animation-delay: 1s; */
+
+        /* position: sticky;
+        top: 6px;*/
+        
+    } 
+    @keyframes move{
+        0%   {left:0px; top:180px;}
+       
+        
+       
+        100% {left:0px; top:0px;}
+    }
+    .second .bookaride:hover{
+        background-color:rgb(48, 46, 31);
+        
+
+    }
+    
